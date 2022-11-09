@@ -46,3 +46,4 @@ jobs:
           plugin_projects: yes
           plugin_projects_limit: 4
           plugin_support: yes
+          plugin_languages_ignored: C++
