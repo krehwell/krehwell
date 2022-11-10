@@ -43,7 +43,12 @@ jobs:
           plugin_people_limit: 24
           plugin_people_size: 28
           plugin_people_types: followers, following
-          plugin_projects: yes
+          plugin_projects: no
           plugin_projects_limit: 4
           plugin_support: yes
-          plugin_languages_ignored: C++
+          plugin_languages_ignored: C++, HLSL, C, CSS
+          plugin_code: yes
+          plugin_code_days: 200
+          plugin_code_lines: 25
+          plugin_code_load: 400
+          plugin_code_visibility: public
