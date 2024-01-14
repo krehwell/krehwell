@@ -2620,7 +2620,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 1.90m out of 128m users</span>
+                                    <span class="gh">ranked 1.90m out of 127m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">26</div>
                                     </div>
@@ -2825,7 +2825,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 758k out of 52.5m repositories</span>
+                                    <span class="gh">ranked 758k out of 49.5m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">15</div>
                                     </div>
@@ -2915,7 +2915,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 745k out of 128m users</span>
+                                    <span class="gh">ranked 745k out of 127m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">18</div>
                                     </div>
@@ -3030,7 +3030,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 683k out of 52.5m repositories</span>
+                                    <span class="gh">ranked 683k out of 49.5m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">40</div>
                                     </div>
@@ -3142,7 +3142,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 5 Jan 2024, 14:52:36
+                            On 1 Jan 2024, 04:26:44
                         </div>
                     </section>
                 </div>
@@ -3152,17 +3152,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            mirec colorscheme
+                            better session saver
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">a200d5c0</span>
-                            <span class="code">.config/nvim/lazy-lock.json</span>
+                            <span class="code">412d732d</span>
+                            <span class="code">.config/nvim/lua/krehwell/remap.lua</span>
                             <span class="code">
-                                <span class="snippet additions">++2</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++10</span>
+                                <span class="snippet deletions">--2</span>
                             </span>
                         </div>
                     </section>
@@ -3170,14 +3170,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -35,10 +35,11 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"kaodam": { "branch": "master", "commit": "aafc82070529d0bea85383cbbaaa25690dcac6fb" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"lsp-zero.nvim": { "branch": "v3.x", "commit": "2def059b9d7c45fddc9c072835710ca9a498657c" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"lspkind.nvim": { "branch": "master", "commit": "7f26cf5e27e2bd910ce0ea00c514da2bf97423b8" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"mason-lspconfig.nvim": { "branch": "main", "commit": "56e435e09f8729af2d41973e81a0db440f8fe9c9" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"mason.nvim": { "branch": "main", "commit": "a09da6ac634926a299dd439da08bdb547a8ca011" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"miasma.nvim": { "branch": "main", "commit": "c672feec07d4e77ac485ee58e3432a96ebe51953" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"neodev.nvim": { "branch": "main", "commit": "2a8630847dbb93455936156c0689678e4eaee319" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"neodev.nvim": { "branch": "main", "commit": "be8d4d4cab6c13c6a572269c9d6a63774baba9a0" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nerdfont.vim": { "branch": "master", "commit": "79461a7e611a32555516ed92e6dde5e292e1e23f" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nofrils": { "branch": "master", "commit": "bad6e490846e098866136ef20fff31e99f428bb9" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"null-ls.nvim": { "branch": "main", "commit": "0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7" },</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -31,8 +31,16 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">----- SESSION BUFFER CONTROLLER<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;b", ":bprevious&lt;CR&gt;")<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;n", ":bnext&lt;CR&gt;")<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;o", ":source ~/.vim/.vim_sessions&lt;cr&gt;") -- TODO: per file name instead maybe?<br /></span><span class="token prefix deleted">-</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;s", ":mksession! ~/.vim/.vim_sessions&lt;cr&gt;") -- So, instead of &lt;cr&gt;, should just defined the name instead<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;o", function()<br /></span><span class="token prefix inserted">+</span><span class="token line">-- current pwd<br /></span><span class="token prefix inserted">+</span><span class="token line">local cwd = vim.fn.fnamemodify(vim.fn.getcwd(), ":t")<br /></span><span class="token prefix inserted">+</span><span class="token line">vim.api.nvim_input(":source ~/.vim/session/" .. cwd .. ".vim&lt;left&gt;&lt;left&gt;&lt;left&gt;&lt;left&gt;")<br /></span><span class="token prefix inserted">+</span><span class="token line">end)<br /></span><span class="token prefix inserted">+</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;s", function()<br /></span><span class="token prefix inserted">+</span><span class="token line">-- get name of current dir only<br /></span><span class="token prefix inserted">+</span><span class="token line">local cwd = vim.fn.fnamemodify(vim.fn.getcwd(), ":t")<br /></span><span class="token prefix inserted">+</span><span class="token line">vim.api.nvim_input(":mksession! ~/.vim/session/" .. cwd .. ".vim&lt;left&gt;&lt;left&gt;&lt;left&gt;&lt;left&gt;")<br /></span><span class="token prefix inserted">+</span><span class="token line">end)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">----- CD TO CURRENT BUFFER's DIR | lcd -&gt; for cding the current buffer only to the current dir<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.keymap.set("n", "&lt;localleader&gt;cd", ":cd %:p:h&lt;CR&gt;")</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 Jan 2024, 21:15:51 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 14 Jan 2024, 22:17:31 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
