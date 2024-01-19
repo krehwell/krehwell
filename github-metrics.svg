@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1703" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1917" class="">
     <defs>
         <style/>
     </defs>
@@ -2546,7 +2546,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="78.13655030800821 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="78.34873374401094 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -2815,7 +2815,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 759k out of 54m repositories</span>
+                                    <span class="gh">ranked 759k out of 51.7m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">15</div>
                                     </div>
@@ -3020,7 +3020,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 685k out of 54m repositories</span>
+                                    <span class="gh">ranked 685k out of 51.7m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">40</div>
                                     </div>
@@ -3132,7 +3132,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 8 Jan 2024, 18:32:20
+                            On 5 Jan 2024, 14:52:36
                         </div>
                     </section>
                 </div>
@@ -3142,17 +3142,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            slice command with cmp, no need wilder.nvim anymore
+                            mirec colorscheme
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">728a25f4</span>
-                            <span class="code">.config/nvim/lua/krehwell/set.lua</span>
+                            <span class="code">a200d5c0</span>
+                            <span class="code">.config/nvim/after/plugin/colors.lua</span>
                             <span class="code">
-                                <span class="snippet additions">++2</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++8</span>
+                                <span class="snippet deletions">--7</span>
                             </span>
                         </div>
                     </section>
@@ -3160,14 +3160,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -3,6 +3,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"> filetype plugin indent on<br /></span><span class="token prefix unchanged">·</span><span class="token line">]])<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">vim.loader.enable()<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">vim.opt.backspace = "2"<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.opt.tabstop = 4<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.opt.softtabstop = 4<br /></span></span>@@ -25,7 +26,7 @@ vim.opt.colorcolumn = "120"<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">vim.opt.splitright = true<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.opt.splitbelow = true<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.opt.eadirection = "ver"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">vim.opt.equalalways = false<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">vim.opt.equalalways = true<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">vim.opt.signcolumn = "yes:1"<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.opt.title = true<br /></span><span class="token prefix unchanged">·</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -16,7 +16,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">vim.opt.laststatus = 0<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.cmd([[ let &amp;statusline='%#VertSplit#' ]]) -- color the split window dashes<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">local colorscheme = "arthur"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">local colorscheme = "mirec"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">local present, _ = pcall(vim.api.nvim_command, "colorscheme " .. colorscheme)<br /></span><span class="token prefix unchanged">·</span><span class="token line">if not present then<br /></span><span class="token prefix unchanged">·</span><span class="token line">return print("colorscheme " .. colorscheme .. " not found!")<br /></span></span>@@ -33,12 +33,13 @@ vim.cmd([[<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">-- CUSTOM ADDITIONAL COLOR CONFIG<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.cmd([[<br /></span><span class="token prefix unchanged">·</span><span class="token line"> augroup custom_off_highlight<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   au!<br /></span><span class="token prefix deleted">-</span><span class="token line">   hi! Normal guibg=g:term_background " guifg=g:term_foreground ctermbg=NONE<br /></span><span class="token prefix deleted">-</span><span class="token line">   hi! VertSplit guibg=NONE guifg=NONE ctermbg=NONE ctermfg=NONE<br /></span><span class="token prefix deleted">-</span><span class="token line">   hi! SignColumn guibg=NONE<br /></span><span class="token prefix deleted">-</span><span class="token line">   hi! Pmenu guibg=NONE guifg=Normal<br /></span><span class="token prefix deleted">-</span><span class="token line">   hi! link TabLine LineNr<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   " au!<br /></span><span class="token prefix inserted">+</span><span class="token line">   " hi! Normal guibg=g:term_background " guifg=g:term_foreground ctermbg=NONE<br /></span><span class="token prefix inserted">+</span><span class="token line">   " hi! VertSplit guibg=NONE guifg=NONE ctermbg=NONE ctermfg=NONE<br /></span><span class="token prefix inserted">+</span><span class="token line">   " hi! SignColumn guibg=NONE<br /></span><span class="token prefix inserted">+</span><span class="token line">   " hi! Pmenu guibg=NONE guifg=Normal<br /></span><span class="token prefix inserted">+</span><span class="token line">     hi! link TabLine LineNr<br /></span><span class="token prefix inserted">+</span><span class="token line">     hi! link TabLineFill LineNr<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"> augroup END<br /></span><span class="token prefix unchanged">·</span><span class="token line">]])<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 20 Jan 2024, 03:19:35 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 20 Jan 2024, 04:16:10 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
