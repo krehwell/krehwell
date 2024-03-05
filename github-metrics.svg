@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2389" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1577" class="">
     <defs>
         <style/>
     </defs>
@@ -2794,7 +2794,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 816k out of 74.8m repositories</span>
+                                    <span class="gh">ranked 816k out of 81.6m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">14</div>
                                     </div>
@@ -2999,7 +2999,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 684k out of 74.8m repositories</span>
+                                    <span class="gh">ranked 684k out of 81.6m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">41</div>
                                     </div>
@@ -3111,7 +3111,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 22 Feb 2024, 07:00:17
+                            On 7 Feb 2024, 03:09:13
                         </div>
                     </section>
                 </div>
@@ -3121,17 +3121,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            flash nvim keys
+                            cleaning
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">058f0a39</span>
-                            <span class="code">.config/nvim/lazy-lock.json</span>
+                            <span class="code">f6a9b8ca</span>
+                            <span class="code">.config/nvim/lua/krehwell/plugins/git.lua</span>
                             <span class="code">
-                                <span class="snippet additions">++6</span>
-                                <span class="snippet deletions">--4</span>
+                                <span class="snippet additions">++1</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -3139,14 +3139,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -17,7 +17,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"darcula-dark.nvim": { "branch": "main", "commit": "0b4b8f582bedfc1a21e8902561331313f3c9ee28" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"duck.nvim": { "branch": "main", "commit": "977b4aa4004726ed3d87b2437f543cef2153b8ea" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"fidget.nvim": { "branch": "main", "commit": "0ba1e16d07627532b6cae915cc992ecac249fb97" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"fzf": { "branch": "master", "commit": "3b5b52d89ae07f7d63ef60f8c75468d46967198e" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"flash.nvim": { "branch": "main", "commit": "48817af25f51c0590653bbc290866e4890fe1cbe" },<br /></span><span class="token prefix inserted">+</span><span class="token line">"fzf": { "branch": "master", "commit": "7a72f1a2531d728d14faf5f61909f9ffa63c8dd3" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"fzf-lua": { "branch": "main", "commit": "91ec17b4fd0d810599f054eef08db967a0457fbf" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"garbage-day.nvim": { "branch": "main", "commit": "957499b8a493974bd7002b68b1f15f7d285e0dd1" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"github-nvim-theme": { "branch": "main", "commit": "d92e1143e5aaa0d7df28a26dd8ee2102df2cadd8" },<br /></span></span><span class="token coord">@@ -38,21 +39,22 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-early-retirement": { "branch": "main", "commit": "8d83da8a5e5dd29e35a291fcb1c47290df9b7699" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-fundo": { "branch": "main", "commit": "a0d105d4588ffe43cc7e40220b1b6c1313156330" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-lint": { "branch": "master", "commit": "889dc0ab3f458997eb9d831dbc3b6c4d6fbc2e12" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"nvim-lspconfig": { "branch": "master", "commit": "c656fe5a58b9eae474f61d294648a897d53639cc" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"nvim-lspconfig": { "branch": "master", "commit": "114bf1875c4adef7c39c86ef538246478b4af87c" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-navic": { "branch": "master", "commit": "8649f694d3e76ee10c19255dece6411c29206a54" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-scrlbkun": { "branch": "main", "commit": "aa9ef583a05926e754e6406cdcdbe420b85b77c9" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"nvim-treesitter": { "branch": "master", "commit": "d96bf9d522369eaf4ad57e607f134e51084ee1ad" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"nvim-treesitter": { "branch": "master", "commit": "bdaa6b817aaef459e2d1968c50ce0061e51410e8" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-treesitter-refactor": { "branch": "master", "commit": "65ad2eca822dfaec2a3603119ec3cc8826a7859e" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-ts-autotag": { "branch": "main", "commit": "531f48334c422222aebc888fd36e7d109cb354cd" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-ts-context-commentstring": { "branch": "main", "commit": "7ab799a9792f7cf3883cf28c6a00ad431f3d382a" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-web-devicons": { "branch": "master", "commit": "7f30f2da3c3641841ceb0e2c150281f624445e8f" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"oxocarbon.nvim": { "branch": "main", "commit": "c5846d10cbe4131cc5e32c6d00beaf59cb60f6a2" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"plenary.nvim": { "branch": "master", "commit": "4f71c0c4a196ceb656c824a70792f3df3ce6bb6d" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"promise-async": { "branch": "main", "commit": "94f6f03c6c1e2aab551aacdf0c1e597a7269abb6" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"refactoring.nvim": { "branch": "master", "commit": "1b593e7203b31c7bde3fa638e6869144698df3b6" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"rose-pine": { "branch": "main", "commit": "f977eeba34b030b37f93ece2fbd792477606203b" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"rubber-themes.vim": { "branch": "master", "commit": "2f79b6d659aa8b8e3ce152bcac823b3b31b2f324" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"telescope-fzf-native.nvim": { "branch": "main", "commit": "6c921ca12321edaa773e324ef64ea301a1d0da62" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"telescope.nvim": { "branch": "master", "commit": "eb88dc6434194bd8eebfcc6ade5dd36e850849ce" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"telescope.nvim": { "branch": "master", "commit": "45d61cc8da213e4052cf698653692b6a4c961760" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"tokyonight.nvim": { "branch": "main", "commit": "610179f7f12db3d08540b6cc61434db2eaecbcff" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"trouble.nvim": { "branch": "main", "commit": "f1168feada93c0154ede4d1fe9183bf69bac54ea" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"ultimate-autopair.nvim": { "branch": "v0.6", "commit": "07c9da3e7722107163b68ecc5e0141fdd825449d" },</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -2,7 +2,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"lewis6991/gitsigns.nvim",<br /></span><span class="token prefix unchanged">·</span><span class="token line">event = "VeryLazy",<br /></span><span class="token prefix unchanged">·</span><span class="token line">dependencies = {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  { "tpope/vim-fugitive", event = "VeryLazy" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  { "tpope/vim-fugitive", event = "CursorMoved" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">  { "tpope/vim-rhubarb",  event = "CursorMoved" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">},<br /></span><span class="token prefix unchanged">·</span><span class="token line">keys = {</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 5 Mar 2024, 23:21:08 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 6 Mar 2024, 00:18:36 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
