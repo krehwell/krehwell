@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1810" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2343" class="">
     <defs>
         <style/>
     </defs>
@@ -2820,7 +2820,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 823k out of 203m repositories</span>
+                                    <span class="gh">ranked 823k out of 192m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">14</div>
                                     </div>
@@ -3025,7 +3025,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 695k out of 203m repositories</span>
+                                    <span class="gh">ranked 695k out of 192m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">41</div>
                                     </div>
@@ -3137,7 +3137,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 3 Mar 2024, 18:39:54
+                            On 19 Mar 2024, 14:52:07
                         </div>
                     </section>
                 </div>
@@ -3147,17 +3147,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            many mini plugins
+                            get rid oscyank and fix copy/paste using native nvim
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">0508a698</span>
-                            <span class="code">.config/nvim/lua/krehwell/plugins/autopairs.lua</span>
+                            <span class="code">ead1e83f</span>
+                            <span class="code">.config/nvim/lazy-lock.json</span>
                             <span class="code">
-                                <span class="snippet additions">++6</span>
-                                <span class="snippet deletions">--16</span>
+                                <span class="snippet additions">++4</span>
+                                <span class="snippet deletions">--5</span>
                             </span>
                         </div>
                     </section>
@@ -3165,14 +3165,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,18 +1,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">return {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"altermo/ultimate-autopair.nvim",<br /></span><span class="token prefix deleted">-</span><span class="token line">event = { "InsertEnter" },<br /></span><span class="token prefix deleted">-</span><span class="token line">branch = "v0.6",<br /></span><span class="token prefix deleted">-</span><span class="token line">opts = {<br /></span><span class="token prefix deleted">-</span><span class="token line">	cmap = "false",<br /></span><span class="token prefix deleted">-</span><span class="token line">	pair_cmap = false,<br /></span><span class="token prefix deleted">-</span><span class="token line">},<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"echasnovski/mini.pairs",<br /></span><span class="token prefix inserted">+</span><span class="token line">version = false,<br /></span><span class="token prefix inserted">+</span><span class="token line">event = "InsertEnter",<br /></span><span class="token prefix inserted">+</span><span class="token line">config = function()<br /></span><span class="token prefix inserted">+</span><span class="token line">	require("mini.pairs").setup({})<br /></span><span class="token prefix inserted">+</span><span class="token line">end,<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"><br /></span></span><span class="token coord">--- return {</span><br /><span class="token coord">--- 	"windwp/nvim-autopairs",</span><br /><span class="token coord">--- 	event = "InsertEnter",</span><br /><span class="token coord">--- 	opts = {</span><br /><span class="token coord">--- 		map_c_w = true,</span><br /><span class="token coord">--- 		enable_check_bracket_line = false,</span><br /><span class="token coord">--- 	},</span><br /><span class="token coord">--- }</span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -11,10 +11,10 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"codeium.vim": { "branch": "main", "commit": "bef9cbaa5c19ab85d8048f364bfc0ac8c7ab335d" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"conform.nvim": { "branch": "master", "commit": "46cb8285275a2657de70c07f4ae3f8e6ffc6a075" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"conform.nvim": { "branch": "master", "commit": "41586cbc81b8d344a795264989a3db79d0a27615" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"duck.nvim": { "branch": "main", "commit": "d8a6b08af440e5a0e2b3b357e2f78bb1883272cd" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"flash.nvim": { "branch": "main", "commit": "48817af25f51c0590653bbc290866e4890fe1cbe" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"fzf": { "branch": "master", "commit": "d579e335b5aa30e98a2ec046cb782bbb02bc28ad" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"fzf": { "branch": "master", "commit": "25e61056b6394d251dc73b85e07a70f5813d081d" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"fzf-lua": { "branch": "main", "commit": "d87a1e2a7ffb20dcbc4091fc878fb02ecb8c248f" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"garbage-day.nvim": { "branch": "main", "commit": "029214aff15487822fbbbce6c622d1c380a20fed" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"github-nvim-theme": { "branch": "main", "commit": "d92e1143e5aaa0d7df28a26dd8ee2102df2cadd8" },<br /></span></span><span class="token coord">@@ -37,10 +37,10 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-early-retirement": { "branch": "main", "commit": "8d83da8a5e5dd29e35a291fcb1c47290df9b7699" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-fundo": { "branch": "main", "commit": "e236d66943349e026c1d42b23cc4fbd9f9c90af3" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-lint": { "branch": "master", "commit": "03b1fc593638098a35de26d768d5f43b0fe57041" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"nvim-lspconfig": { "branch": "master", "commit": "8c1831817d40925d22cd8a555296c44c02fdaaf5" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"nvim-lspconfig": { "branch": "master", "commit": "eb012f03bb3b4aca9e875d146008b923d0e07e65" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-navic": { "branch": "master", "commit": "8649f694d3e76ee10c19255dece6411c29206a54" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-scrlbkun": { "branch": "main", "commit": "aa9ef583a05926e754e6406cdcdbe420b85b77c9" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"nvim-treesitter": { "branch": "master", "commit": "2014f8285e306f4c8a896c7d3af53fdd599e5a4f" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"nvim-treesitter": { "branch": "master", "commit": "567a76780cd4f982dae1ec57e3dad6174bef3680" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-treesitter-refactor": { "branch": "master", "commit": "65ad2eca822dfaec2a3603119ec3cc8826a7859e" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-ts-autotag": { "branch": "main", "commit": "531f48334c422222aebc888fd36e7d109cb354cd" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-ts-context-commentstring": { "branch": "main", "commit": "7ab799a9792f7cf3883cf28c6a00ad431f3d382a" },<br /></span></span><span class="token coord">@@ -54,7 +54,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"undotree": { "branch": "master", "commit": "aa93a7e5890dbbebbc064cd22260721a6db1a196" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"vim-css-to-inline": { "branch": "master", "commit": "f15e547e5e9196d08b6398474d28b469771bb98e" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"vim-fugitive": { "branch": "master", "commit": "8d4e8d45385c63a0bf735fe1164772116bf0da0d" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"vim-oscyank": { "branch": "main", "commit": "c37c9d98e8a0aed749624fa14a7ece7913cf34de" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"vim-repeat": { "branch": "master", "commit": "24afe922e6a05891756ecf331f39a1f6743d3d5a" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"vim-rhubarb": { "branch": "master", "commit": "ee69335de176d9325267b0fd2597a22901d927b1" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"vim-startify": { "branch": "master", "commit": "4e089dffdad46f3f5593f34362d530e8fe823dcf" },</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 Apr 2024, 01:17:57 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 14 Apr 2024, 02:12:09 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
