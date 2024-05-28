@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2509" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1717" class="">
     <defs>
         <style/>
     </defs>
@@ -171,7 +171,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/>
                                     </svg>
-                                    73.5 MB used
+                                    73.6 MB used
                                 </div>
                             </section>
                             <section>
@@ -2589,7 +2589,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 1.82m out of 127m users</span>
+                                    <span class="gh">ranked 1.82m out of 137m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">28</div>
                                     </div>
@@ -2794,7 +2794,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 832k out of 205m repositories</span>
+                                    <span class="gh">ranked 832k out of 203m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">14</div>
                                     </div>
@@ -2849,7 +2849,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 675k out of 127m users</span>
+                                    <span class="gh">ranked 675k out of 137m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">21</div>
                                     </div>
@@ -2999,7 +2999,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 695k out of 205m repositories</span>
+                                    <span class="gh">ranked 695k out of 203m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">42</div>
                                     </div>
@@ -3111,7 +3111,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 12 May 2024, 16:20:26
+                            On 9 May 2024, 10:08:24
                         </div>
                     </section>
                 </div>
@@ -3121,17 +3121,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            new Notes plug
+                            ts text object
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">7578af0b</span>
-                            <span class="code">.config/nvim/lazy-lock.json</span>
+                            <span class="code">3a83263d</span>
+                            <span class="code">.config/nvim/after/plugin/colors.lua</span>
                             <span class="code">
-                                <span class="snippet additions">++6</span>
-                                <span class="snippet deletions">--6</span>
+                                <span class="snippet additions">++2</span>
+                                <span class="snippet deletions">--2</span>
                             </span>
                         </div>
                     </section>
@@ -3139,14 +3139,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -13,33 +13,33 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"codeium.vim": { "branch": "main", "commit": "9406f13cf3eaa08318b76746bd105a04506cab27" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"duck.nvim": { "branch": "main", "commit": "d8a6b08af440e5a0e2b3b357e2f78bb1883272cd" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"fidget.nvim": { "branch": "main", "commit": "0ba1e16d07627532b6cae915cc992ecac249fb97" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"fzf": { "branch": "master", "commit": "07880ca4415009d7a151d262bc5ac62f8b6dc719" },<br /></span><span class="token prefix deleted">-</span><span class="token line">"fzf-lua": { "branch": "main", "commit": "0a36172c5a25070b4d38a9b3a42261f26b7a4074" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"fzf": { "branch": "master", "commit": "4e9e842aa4df67051ce88963b0745679dbaeadb5" },<br /></span><span class="token prefix inserted">+</span><span class="token line">"fzf-lua": { "branch": "main", "commit": "9c953dfa7650191d892800333d187f3439e01afd" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"garbage-day.nvim": { "branch": "main", "commit": "3af496f0d1dc6586dcf4ceda6bbf61a8f820ab66" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"github-nvim-theme": { "branch": "main", "commit": "d832925e77cef27b16011a8dfd8835f49bdcd055" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"gitpad.nvim": { "branch": "main", "commit": "128e051d6d21f89b1ccceb0d80b0b5c2191efc84" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"gitsigns.nvim": { "branch": "main", "commit": "805610a9393fa231f2c2b49cb521bfa413fadb3d" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"gruvbox-material": { "branch": "master", "commit": "80331fbbec9ba18590a17bc6b7d277d96c05c2b6" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"harpoon": { "branch": "harpoon2", "commit": "0378a6c428a0bed6a2781d459d7943843f374bce" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"hybrid.nvim": { "branch": "master", "commit": "82d847fc6bdc1b9b4e7f34f22410989c61979081" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"lazy.nvim": { "branch": "main", "commit": "d3974346b6cef2116c8e7b08423256a834cb7cbc" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"lsp-zero.nvim": { "branch": "v3.x", "commit": "f12d50716e8e59ea9f5cf484eac6968c33a95917" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"lspkind.nvim": { "branch": "master", "commit": "1735dd5a5054c1fb7feaf8e8658dbab925f4f0cf" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"mason-lspconfig.nvim": { "branch": "main", "commit": "c3168b2a6a09722d4567ef4a37364b9b30bf7f20" },<br /></span><span class="token prefix deleted">-</span><span class="token line">"mason.nvim": { "branch": "main", "commit": "751b1fcbf3d3b783fcf8d48865264a9bcd8f9b10" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"mason-lspconfig.nvim": { "branch": "main", "commit": "9ae570e206360e47d30b4c35a4550c165f4ea7b7" },<br /></span><span class="token prefix inserted">+</span><span class="token line">"mason.nvim": { "branch": "main", "commit": "e91ff44c0a97a76a004b5516db8e3085d1955fb6" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"miasma.nvim": { "branch": "main", "commit": "c672feec07d4e77ac485ee58e3432a96ebe51953" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"mini.files": { "branch": "main", "commit": "eab771c69b787a3f042dc6505d15613c282aa786" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"mini.move": { "branch": "main", "commit": "251d541a8ab745e81295a53c128829cb2bff18e3" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"neodev.nvim": { "branch": "main", "commit": "ce9a2e8eaba5649b553529c5498acb43a6c317cd" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"none-ls-extras.nvim": { "branch": "main", "commit": "336e84b9e43c0effb735b08798ffac382920053b" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"none-ls.nvim": { "branch": "main", "commit": "f5632db2491fbe02b54f1a321a98548a8ba2bd15" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"notes.nvim": { "branch": "main", "commit": "b7b0472ada19f102d02d1e2be842433ccd8887d7" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-cmp": { "branch": "main", "commit": "cd2cf0c124d3de577fb5449746568ee8e601afc8" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-early-retirement": { "branch": "main", "commit": "8d83da8a5e5dd29e35a291fcb1c47290df9b7699" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-fundo": { "branch": "main", "commit": "e236d66943349e026c1d42b23cc4fbd9f9c90af3" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-lsp-file-operations": { "branch": "master", "commit": "223aca86b737dc66e9c51ebcda8788a8d9cc6cf2" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-lspconfig": { "branch": "master", "commit": "a3d9395455f2b2e3b50a0b0f37b8b4c23683f44a" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-navic": { "branch": "master", "commit": "8649f694d3e76ee10c19255dece6411c29206a54" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"nvim-treesitter": { "branch": "master", "commit": "fa1515b015ab9894aa9866410b1c23e03d2be4af" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"nvim-treesitter": { "branch": "master", "commit": "6587d8e6942b8d2146d61bab4c4acff9dec5ae59" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">"nvim-treesitter-refactor": { "branch": "master", "commit": "65ad2eca822dfaec2a3603119ec3cc8826a7859e" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-treesitter-textobjects": { "branch": "master", "commit": "dfa4178c0cadb44f687603d72ad0908474c28dd9" },<br /></span><span class="token prefix unchanged">·</span><span class="token line">"nvim-ts-autotag": { "branch": "main", "commit": "531f48334c422222aebc888fd36e7d109cb354cd" },</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -2,7 +2,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">-- vim.opt.termguicolors = true<br /></span><span class="token prefix unchanged">·</span><span class="token line">-- vim.opt.background = "dark"<br /></span><span class="token prefix unchanged">·</span><span class="token line">vim.opt.fillchars = {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">vert = "╏", -- alternatives │<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">-- vert = "╏", -- alternatives │<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">fold = " ",<br /></span><span class="token prefix unchanged">·</span><span class="token line">eob = "~", -- suppress ~ at EndOfBuffer<br /></span><span class="token prefix unchanged">·</span><span class="token line">diff = "╱", -- alternatives = ⣿ ░ ─<br /></span></span>@@ -18,7 +18,7 @@ vim.cmd([[ let &amp;statusline='%#VertSplit#' ]]) -- color the split window dashes<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">local colorscheme = vim.g.colors_name<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token coord">--- save local wezterm color</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">-- save local terminal color<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">vim.cmd([[<br /></span><span class="token prefix unchanged">·</span><span class="token line"> if exists('g:wezterm')<br /></span><span class="token prefix unchanged">·</span><span class="token line">   let g:term_foreground = get(g:wezterm, 'colors', {}).foreground</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 28 May 2024, 22:19:51 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 28 May 2024, 23:23:21 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
