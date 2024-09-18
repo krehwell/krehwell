@@ -2747,7 +2747,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 102k out of 214m repositories</span>
+                                    <span class="gh">ranked 102k out of 171m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">464</div>
                                     </div>
@@ -2840,7 +2840,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 755k out of 214m repositories</span>
+                                    <span class="gh">ranked 755k out of 171m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">16</div>
                                     </div>
@@ -3116,7 +3116,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 23 Jul 2024, 15:42:33
+                            On 29 Jun 2024, 13:48:19
                         </div>
                     </section>
                 </div>
@@ -3126,17 +3126,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            update packages
+                            killall_lsp
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">e1a82113</span>
-                            <span class="code">utils/tmux-session</span>
+                            <span class="code">25e852dd</span>
+                            <span class="code">.config/nvim/lua/krehwell/plugins/treesitter.lua</span>
                             <span class="code">
-                                <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--3</span>
+                                <span class="snippet additions">++2</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -3144,14 +3144,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -2,16 +2,14 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"># Save and restore the state of tmux sessions and windows.<br /></span><span class="token prefix unchanged">·</span><span class="token line">set -e<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line"># get current file directory and store to a variable<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &amp;&amp; pwd )"<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">dump() {<br /></span><span class="token prefix unchanged">·</span><span class="token line">   local d=$'\t'<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   tmux list-windows -a -F "#S${d}#W${d}#{pane_current_path}"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   tmux list-windows -F "#S${d}#W${d}#{pane_current_path}"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">save() {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   # dump to `DIR`<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   dump &gt; "$DIR"/.tmux-session<br /></span><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -5,6 +5,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">dependencies = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">	{ "nvim-treesitter/nvim-treesitter-refactor" }, -- highlight usages, definition, etc<br /></span><span class="token prefix unchanged">·</span><span class="token line">	{ "nvim-treesitter/nvim-treesitter-textobjects" },<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	-- { "nvim-treesitter/nvim-treesitter-context" },<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">},<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">opts = {<br /></span></span>@@ -44,7 +45,7 @@ return {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">		keymaps = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">			init_selection = "&lt;c-space&gt;",<br /></span><span class="token prefix unchanged">·</span><span class="token line">			node_incremental = "&lt;c-space&gt;",<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">			scope_incremental = "&lt;c-s&gt;",<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">			scope_incremental = "&lt;c-a&gt;",<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">			node_decremental = "", -- this is &lt;C-BS&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">		},<br /></span><span class="token prefix unchanged">·</span><span class="token line">	},</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 18 Sept 2024, 17:23:18 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 18 Sept 2024, 18:18:14 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
