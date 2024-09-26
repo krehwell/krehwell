@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1890" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1677" class="">
     <defs>
         <style/>
     </defs>
@@ -2605,7 +2605,7 @@
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 2.04m out of 142m users</span>
+                                    <span class="gh">ranked 2.04m out of 145m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">27</div>
                                     </div>
@@ -2735,7 +2735,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="74.78478478478479 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="74.93993993993993 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -2758,12 +2758,12 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 98.6k out of 215m repositories</span>
+                                    <span class="gh">ranked 98.4k out of 217m repositories</span>
                                     <div class="value-wrapper">
-                                        <div class="value">483</div>
+                                        <div class="value">484</div>
                                     </div>
                                 </div>
-                                <div class="text">Maintaining a repository with 483 stars</div>
+                                <div class="text">Maintaining a repository with 484 stars</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -2851,7 +2851,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 756k out of 215m repositories</span>
+                                    <span class="gh">ranked 757k out of 217m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">16</div>
                                     </div>
@@ -2906,7 +2906,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 807k out of 142m users</span>
+                                    <span class="gh">ranked 807k out of 145m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">19</div>
                                     </div>
@@ -3127,7 +3127,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 25 Sept 2024, 18:42:45
+                            On 29 Jun 2024, 13:48:19
                         </div>
                     </section>
                 </div>
@@ -3137,17 +3137,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            lsp, multicursor, oil, bringback cmp
+                            killall_lsp
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">0bbc5442</span>
-                            <span class="code">.config/nvim/lua/krehwell/plugins/typescript.lua</span>
+                            <span class="code">25e852dd</span>
+                            <span class="code">.config/nvim/lua/krehwell/plugins/linter.lua</span>
                             <span class="code">
-                                <span class="snippet additions">++18</span>
-                                <span class="snippet deletions">--5</span>
+                                <span class="snippet additions">++4</span>
+                                <span class="snippet deletions">--4</span>
                             </span>
                         </div>
                     </section>
@@ -3155,14 +3155,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,9 +1,22 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">return {<br /></span><span class="token prefix unchanged">·</span><span class="token line">"pmizio/typescript-tools.nvim",<br /></span><span class="token prefix unchanged">·</span><span class="token line">ft = { "typescript", "typescriptreact", "javascript" },<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },<br /></span><span class="token prefix deleted">-</span><span class="token line">   keys = {<br /></span><span class="token prefix deleted">-</span><span class="token line">       { "&lt;leader&gt;ts", ":TSTools", desc = "TSTools options" },<br /></span><span class="token prefix deleted">-</span><span class="token line">   },<br /></span><span class="token prefix deleted">-</span><span class="token line">opts = {},<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">enabled = false,<br /></span><span class="token prefix inserted">+</span><span class="token line">dependencies = {<br /></span><span class="token prefix inserted">+</span><span class="token line">	"nvim-lua/plenary.nvim",<br /></span><span class="token prefix inserted">+</span><span class="token line">	"neovim/nvim-lspconfig",<br /></span><span class="token prefix inserted">+</span><span class="token line">	{ "dmmulroy/ts-error-translator.nvim", event = "LspAttach", ft = { "typescript", "typescriptreact" } },<br /></span><span class="token prefix inserted">+</span><span class="token line">},<br /></span><span class="token prefix inserted">+</span><span class="token line">keys = {<br /></span><span class="token prefix inserted">+</span><span class="token line">	{ "&lt;leader&gt;ts", ":TSTools", desc = "TSTools options" },<br /></span><span class="token prefix inserted">+</span><span class="token line">},<br /></span><span class="token prefix inserted">+</span><span class="token line">opts = {<br /></span><span class="token prefix inserted">+</span><span class="token line">	settings = {<br /></span><span class="token prefix inserted">+</span><span class="token line">		tsserver_file_preferences = {<br /></span><span class="token prefix inserted">+</span><span class="token line">			autoImportFileExcludePatterns = { "**/@mui/**" },<br /></span><span class="token prefix inserted">+</span><span class="token line">			importModuleSpecifierPreference = "auto",<br /></span><span class="token prefix inserted">+</span><span class="token line">			lazyConfiguredProjectsFromExternalProject = true,<br /></span><span class="token prefix inserted">+</span><span class="token line">		},<br /></span><span class="token prefix inserted">+</span><span class="token line">	},<br /></span><span class="token prefix inserted">+</span><span class="token line">},<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -24,10 +24,10 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">-- TS<br /></span><span class="token prefix unchanged">·</span><span class="token line">null_ls.builtins.formatting.prettierd,<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">require("none-ls.code_actions.eslint_d"),<br /></span><span class="token prefix deleted">-</span><span class="token line">require("none-ls.diagnostics.eslint_d"),<br /></span></span><span class="token coord">--- null_ls.builtins.diagnostics.eslint,</span><br /><span class="token coord">--- null_ls.builtins.code_actions.eslint,</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">-- require("none-ls.code_actions.eslint_d"),<br /></span><span class="token prefix inserted">+</span><span class="token line">-- require("none-ls.diagnostics.eslint_d"),<br /></span><span class="token prefix inserted">+</span><span class="token line">require("none-ls.code_actions.eslint"),<br /></span><span class="token prefix inserted">+</span><span class="token line">require("none-ls.diagnostics.eslint"),<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">-- null_ls.builtins.diagnostics.dotenv_linter,<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">-- CSpell</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Sept 2024, 11:26:51 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 26 Sept 2024, 12:21:39 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
