@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1803" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1843" class="">
     <defs>
         <style/>
     </defs>
@@ -2492,7 +2492,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="1.8672142368240978 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="1.952087611225192 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -2747,7 +2747,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 94k out of 217m repositories</span>
+                                    <span class="gh">ranked 94k out of 207m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">511</div>
                                     </div>
@@ -2840,7 +2840,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 759k out of 217m repositories</span>
+                                    <span class="gh">ranked 759k out of 207m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">16</div>
                                     </div>
@@ -3116,7 +3116,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 30 Sept 2024, 07:00:24
+                            On 23 Jul 2024, 15:42:33
                         </div>
                     </section>
                 </div>
@@ -3126,17 +3126,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            alacritty support
+                            update packages
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">55a3eb92</span>
-                            <span class="code">.config/nvim/lua/krehwell/plugins/git.lua</span>
+                            <span class="code">e1a82113</span>
+                            <span class="code">.config/wezterm/wezterm.lua</span>
                             <span class="code">
                                 <span class="snippet additions">++7</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet deletions">--4</span>
                             </span>
                         </div>
                     </section>
@@ -3144,14 +3144,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -83,6 +83,11 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	linehl = false,<br /></span><span class="token prefix unchanged">·</span><span class="token line">	attach_to_untracked = true,<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	watch_gitdir = {<br /></span><span class="token prefix inserted">+</span><span class="token line">		interval = 1000,<br /></span><span class="token prefix inserted">+</span><span class="token line">		follow_files = true,<br /></span><span class="token prefix inserted">+</span><span class="token line">	},<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	current_line_blame = true,<br /></span><span class="token prefix unchanged">·</span><span class="token line">	current_line_blame_opts = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">		virt_text = true,<br /></span></span>@@ -92,8 +97,9 @@ return {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	},<br /></span><span class="token prefix unchanged">·</span><span class="token line">	current_line_blame_formatter = "     &lt;author&gt;, &lt;author_time:%d-%m-%Y&gt; - &lt;summary&gt;",<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	status_formatter = nil,<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	sign_priority = 6,<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	update_debounce = 300,<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	update_debounce = 100,<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	max_file_length = 2000, -- Disable if file is longer than this (in lines)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	preview_config = { border = "single", style = "minimal", relative = "cursor", row = 0, col = 1 },<br /></span><span class="token prefix unchanged">·</span><span class="token line">},</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -10,7 +10,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">window:toast_notification("wezterm", "configuration reloaded!", nil, 4000)<br /></span><span class="token prefix unchanged">·</span><span class="token line">end)<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token coord">--- This table will hold the configuration.</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">local config = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">font = wezterm.font_with_fallback({<br /></span><span class="token prefix unchanged">·</span><span class="token line">	-- font weight to be a little bold<br /></span></span>@@ -22,12 +21,16 @@ local config = {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">-- cell_width = 0.93,<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">colors = {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	background = "#000000",<br /></span><span class="token prefix deleted">-</span><span class="token line">	foreground = "#d4d4d4",<br /></span><span class="token prefix deleted">-</span><span class="token line">	cursor_bg = "#a270ba",<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	background = "#161b1a",<br /></span><span class="token prefix inserted">+</span><span class="token line">	foreground = "#C6C6C6",<br /></span><span class="token prefix inserted">+</span><span class="token line">	cursor_bg = "#b294bb",<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	cursor_fg = "#1e1e1e",<br /></span><span class="token prefix unchanged">·</span><span class="token line">},<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">   use_fancy_tab_bar = false,<br /></span><span class="token prefix inserted">+</span><span class="token line">   tab_max_width = 50,<br /></span><span class="token prefix inserted">+</span><span class="token line">   tab_and_split_indices_are_zero_based = true,<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">hide_tab_bar_if_only_one_tab = true,<br /></span><span class="token prefix unchanged">·</span><span class="token line">native_macos_fullscreen_mode = true,<br /></span><span class="token prefix unchanged">·</span><span class="token line">-- exit_behavior = "CloseOnCleanExit",</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 10 Oct 2024, 03:24:03 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 10 Oct 2024, 04:20:27 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
