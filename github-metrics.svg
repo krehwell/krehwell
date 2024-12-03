@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1683" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1990" class="">
     <defs>
         <style/>
     </defs>
@@ -2742,7 +2742,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 79.5k out of 217m repositories</span>
+                                    <span class="gh">ranked 79.5k out of 223m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">626</div>
                                     </div>
@@ -2835,7 +2835,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 728k out of 217m repositories</span>
+                                    <span class="gh">ranked 728k out of 223m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">17</div>
                                     </div>
@@ -3111,7 +3111,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 27 Nov 2024, 18:11:54
+                            On 18 Nov 2024, 07:09:14
                         </div>
                     </section>
                 </div>
@@ -3121,17 +3121,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            migrate to deno
+                            savings through chrome.storage
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">89750fa3</span>
-                            <span class="code">src/main.tsx</span>
+                            <span class="code">a5443871</span>
+                            <span class="code">src/index.css</span>
                             <span class="code">
-                                <span class="snippet additions">++3</span>
-                                <span class="snippet deletions">--3</span>
+                                <span class="snippet additions">++11</span>
+                                <span class="snippet deletions">--15</span>
                             </span>
                         </div>
                     </section>
@@ -3139,14 +3139,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,7 +1,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import React from 'react'<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import ReactDOM from 'react-dom/client'<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import ReactDOM from 'react-dom';<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">import './index.css'<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">import { App } from './components/App'<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">import { App } from './components/App/App.tsx'<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">const buildRoot = () =&gt; {<br /></span><span class="token prefix unchanged">·</span><span class="token line">  const root = document.createElement('div')<br /></span></span>@@ -15,5 +15,5 @@ const root = buildRoot()<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">ReactDOM.createRoot(root).render(<br /></span><span class="token prefix unchanged">·</span><span class="token line">  &lt;React.StrictMode&gt;<br /></span><span class="token prefix unchanged">·</span><span class="token line">      &lt;App /&gt;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">  &lt;/React.StrictMode&gt;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">  &lt;/React.StrictMode&gt;,<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">)</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -11,6 +11,16 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">:root {<br /></span><span class="token prefix unchanged">·</span><span class="token line">   --navbar-height: 56px;<br /></span><span class="token prefix unchanged">·</span><span class="token line">   color-scheme: dark light;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   --color-bg-primary: #343a40;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-bg-secondary: #2c3034;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-text-active-primary: #f8f9fa;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-text-active-secondary: #eaecef;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-text-inactive-primary: #f8f9fa80;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-text-inactive-secondary: #eaecef80;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-text-inactive-textbox: #40454b;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-token-green: #caffbf;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-token-grey: #4c5257;<br /></span><span class="token prefix inserted">+</span><span class="token line">   --color-token-yellow: #ffaead;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">html {<br /></span></span>@@ -31,21 +41,7 @@ body {<br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">html * {<br /></span><span class="token prefix unchanged">·</span><span class="token line">   font-family: 'Rumiko Clear';<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   color: #f8f9fa;<br /></span><span class="token prefix deleted">-</span><span class="token line">}<br /></span><span class="token prefix deleted">-</span><span class="token line"><br /></span><span class="token prefix deleted">-</span><span class="token line">/********** OUR VARS **********/<br /></span><span class="token prefix deleted">-</span><span class="token line">:root {<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-bg-primary: #343a40;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-bg-secondary: #2c3034;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-text-active-primary: #f8f9fa;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-text-active-secondary: #eaecef;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-text-inactive-primary: #f8f9fa80;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-text-inactive-secondary: #eaecef80;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-text-inactive-textbox: #40454b;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-token-green: #caffbf;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-token-grey: #4c5257;<br /></span><span class="token prefix deleted">-</span><span class="token line">   --color-token-yellow: #ffaead;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   color: var(--color-text-active-primary);<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/********** CUSTOM SCROLLBAR *********/</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Dec 2024, 13:34:30 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 3 Dec 2024, 14:24:55 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
