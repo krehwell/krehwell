@@ -2452,9 +2452,9 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">b4119682</span>
-                            <span class="code">.config/nvim/lua/krehwell/lsp-utils.lua</span>
+                            <span class="code">.config/fish/config.fish</span>
                             <span class="code">
-                                <span class="snippet additions">++3</span>
+                                <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
                             </span>
                         </div>
@@ -2463,14 +2463,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -84,7 +84,9 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">local diagnostic_config = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">show_diagnostic_autocmds = {<br /></span><span class="token prefix unchanged">·</span><span class="token line">	"InsertLeave",<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	-- "TextChanged"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	"TextChanged",<br /></span><span class="token prefix inserted">+</span><span class="token line">	"BufEnter",<br /></span><span class="token prefix inserted">+</span><span class="token line">	"WinEnter",<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">},<br /></span><span class="token prefix unchanged">·</span><span class="token line">virtual_text = true,<br /></span><span class="token prefix unchanged">·</span><span class="token line">update_in_insert = true,</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -14,7 +14,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">set fish_cursor_insert block<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">function killall_lsp<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    set patterns biome Biome next vtsls eslint_d eslint prettierd node bun bunx tsserver next-server yarn turbo <br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    set patterns biome Biome next vtsls eslint_d eslint prettierd node bun bunx tsserver next-server yarn turbo watchman <br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">    for pattern in $patterns<br /></span><span class="token prefix unchanged">·</span><span class="token line">        echo "Killing processes matching: $pattern"</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Sept 2025, 03:26:59 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 24 Sept 2025, 04:20:52 (timezone Asia/Jakarta) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
